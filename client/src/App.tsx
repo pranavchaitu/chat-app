@@ -14,7 +14,7 @@ function App() {
   }
 
   useEffect(() => {
-    const socket = new WebSocket("ws://localhost:8080")
+    const socket = new WebSocket("ws://13.61.35.136:8080")
     socket.onopen = () => {
       setSocket(socket)
     }
